@@ -1,0 +1,26 @@
+{
+  "name": "ci-session",
+  "version": "0.2.3",
+  "description": "Description.",
+  "main": "src/session.service.js",
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>",
+    "Agustin Diaz <agustin.diaz@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.28",
+    "angular-cookies": "~1.2.28",
+    "angular-mocks": "~1.2.28",
+    "angular-ui-router": "~0.2.15",
+    "lodash": "~3.10.0",
+    "ci-params": "git@github.com:pablonp/ci-params.git#~0.2.0"
+  }
+}
